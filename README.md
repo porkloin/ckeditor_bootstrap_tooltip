@@ -1,7 +1,4 @@
-# CKEditor Bootstrap Tooltips Drupal 8
+# btbutton
+CKEditor4 Bootstrap3 button widget.
 
-Drupal 8 CKEditor Plugins for adding Bootstrap Tooltips through the WYSIWYG editor.
-
-Install Process:
-
-Clone into /drupalroot/modules, then navigate to yoursite.com/admin/modules and activate the module in the GUI.
+Visit this link for demo and installation instructions: [https://www.agencyascend.com/blog/2015/12/27/ckeditor-4-bootstrap-button-widget](https://www.agencyascend.com/blog/2015/12/27/ckeditor-4-bootstrap-button-widget)

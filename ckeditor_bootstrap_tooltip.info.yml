@@ -1,0 +1,13 @@
+name: CKEditor Bootstrap Tooltip 
+type: module
+description: This plugin adds bootstrap tooltips feature to the editor.
+# core: 8.x
+package: CKEditor
+dependencies:
+  - ckeditor
+
+# Information added by Drupal.org packaging script on 2016-05-01
+version: '8.x-1.0'
+core: '8.x'
+project: 'ckeditor_bootstrap_tooltip'
+datestamp: 1462114748
