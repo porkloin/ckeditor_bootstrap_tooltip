@@ -21,16 +21,17 @@
 
                     init: function () {
 
+		
                     },
 
-                    template: '<a href="#" class="tipper" data-toggle="tooltip" data-placement="top" title data-original-title="">' + '<span class="text"></span>' + '</a>',
+                    template: '<span href="#" class="tipper" data-toggle="tooltip" data-placement="top" title>' + '<span class="text"></span>' + '</span>',
 
                     data: function () {
                         var $el = jQuery(this.element.$);
 
 			console.log($el);
                         if (this.data.tooltip) {
-				$el.attr('data-original-title', this.data.tooltip);
+				$el.attr('title', this.data.tooltip);
                         }
                         if (this.data.text) {
 				jQuery('.text', $el).text(this.data.text);
@@ -38,10 +39,11 @@
 
                     },
 
-                    requiredContent: 'a.tipper',
+		    allowedContent: 'p',
+                    requiredContent: 'span.tipper',
 
                     upcast: function (element) {
-                        return element.name == 'a';
+                        return element.name == 'span.tipper';
                     }
                 });
             }

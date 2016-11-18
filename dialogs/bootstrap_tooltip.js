@@ -16,7 +16,7 @@ CKEDITOR.dialog.add('bootstrap_tooltip', function (editor) {
                         type: 'text',
 			width: '200px',
 			require: true,
-                        label: 'Text',
+                        label: 'Tooltip Text',
                         setup: function (widget) {
                             this.setValue(widget.data.tooltip || '');
                         },
@@ -29,7 +29,7 @@ CKEDITOR.dialog.add('bootstrap_tooltip', function (editor) {
                         type: 'text',
 			width: '200px',
 			require: true,
-                        label: 'Text',
+                        label: 'Body Text',
                         setup: function (widget) {
                             this.setValue(widget.data.text || '');
                         },
